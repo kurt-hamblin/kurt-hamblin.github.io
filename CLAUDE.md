@@ -21,10 +21,9 @@ Text-only top nav, in this order:
 - **About** (`/`): photo, a few paragraphs in Kurt's voice, current role, contact links.
 - **Research** (`/research/`): PhD work at the University of Kansas, written in past tense. Short sections for each project with a link to the paper or repo.
 - **Projects** (`/projects/`): personal and code projects. Each project is its own page, a file in `_projects/` (URL `/projects/<filename>/`) with `title`, `summary` (one line shown on the list), and `order` in front matter. The Projects page lists them automatically.
-- **Personal** (`/personal/`): hobbies and interests as short prose and simple lists, with inline photos.
 - **Musings** (`/musings/`): Kurt's blog for writing for fun. Posts live in `_posts/YYYY-MM-DD-title.md` with a `title` in front matter, use the `post` layout, and get URLs like `/musings/2026/title/`. RSS feed at `/musings/feed.xml` (jekyll-feed). Never write posts for Kurt; only fix formatting if asked.
 
-No CV on the site (Kurt decided it is not needed).
+No CV and no Personal page on the site (Kurt decided against both; hobbies live on About).
 
 Footer: name, email, GitHub, LinkedIn as plain text links. Current year only.
 
@@ -78,7 +77,6 @@ These apply to any text written for the site, and to commit messages.
 The old site lives in a separate repo (`hamblin-ku.github.io`, now under the kurt-hamblin account). Ask Kurt for its local path if you need it. Copy only these into this repo, and nothing from the Hydejack theme:
 
 - `KurtHamblin_Resume.pdf`, only if Kurt wants it (repo root, so the old link keeps working). Not the CV.
-- Photos still in use, such as the rabbit photos in `assets/img/`
 - The Google site verification HTML file
 - Text from `index.md`, `research.md`, `projects.md`, and `materials.md` as source material only, rewritten to the rules above
 
