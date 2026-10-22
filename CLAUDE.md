@@ -22,7 +22,8 @@ Text-only top nav, in this order:
 - **Research** (`/research/`): PhD work at the University of Kansas, written in past tense. Short sections for each project with a link to the paper or repo.
 - **Projects** (`/projects/`): personal and code projects. One heading per project, one to three sentences, a link.
 - **Personal** (`/personal/`): hobbies and interests as short prose and simple lists, with inline photos.
-- **CV**: direct link to the PDF.
+
+No CV on the site (Kurt decided it is not needed).
 
 Footer: name, email, GitHub, LinkedIn as plain text links. Current year only.
 
@@ -60,18 +61,20 @@ These apply to any text written for the site, and to commit messages.
 
 - GitHub: https://github.com/kurt-hamblin
 - LinkedIn: https://www.linkedin.com/in/kurt-hamblin
-- PhD in Physics, University of Kansas. Advisor: Dr. Allison Kirkpatrick.
+- PhD in Physics, University of Kansas, finished July 2026. Advisor: Dr. Allison Kirkpatrick. Defended with honors. Thesis: "Uncovering Hidden Black Holes in the Distant Universe" (ProQuest link: TODO, Kurt will add later).
 - B.S. in Physics, UMBC, 2019.
 - NASA FINNEST Fellow.
 - Research: AGN identification and photometric redshifts with JWST and Chandra data. Projects include AGNBoost (https://github.com/kurt-hamblin/AGNBoost), a Chandra ACIS Extract pipeline for the MEGA survey, and an SED fitting framework.
-- Current role and how to describe it: TODO, ask Kurt.
-- Contact email: TODO, ask Kurt (the old ku.edu address is likely outdated).
+- AGNBoost paper (ApJ, 2026): https://ui.adsabs.harvard.edu/abs/2026ApJ..1002..223H/abstract. Trained on 10^6 mock galaxies (the old site lost the superscript and shows "106").
+- GitHub username changed from `hamblin-ku` to `kurt-hamblin`. Update any old links.
+- Current role: Physical Scientist at NOAA. Use the title only, no further description.
+- Contact email: hamblin.kurt+website@gmail.com (plus address so Kurt can filter mail from the site).
 
 ## Files from the old site
 
 The old site lives in a separate repo (`hamblin-ku.github.io`, now under the kurt-hamblin account). Ask Kurt for its local path if you need it. Copy only these into this repo, and nothing from the Hydejack theme:
 
-- `KurtHamblin_CV.pdf`, `KurtHamblin_Resume.pdf` (put in `files/` or the repo root; keep links working)
+- `KurtHamblin_Resume.pdf`, only if Kurt wants it (repo root, so the old link keeps working). Not the CV.
 - Photos still in use, such as the rabbit photos in `assets/img/`
 - The Google site verification HTML file
 - Text from `index.md`, `research.md`, `projects.md`, and `materials.md` as source material only, rewritten to the rules above
@@ -84,5 +87,5 @@ Do not add a `CNAME` file or set the custom domain until Kurt says the site is r
 
 - Run `bundle exec jekyll serve` and check every page locally before committing.
 - Check pages at phone width.
-- Confirm all links work, including the CV PDF.
+- Confirm all links work.
 - Confirm no em or en dashes in any page: search for `—` and `–`.

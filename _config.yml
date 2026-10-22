@@ -1,0 +1,37 @@
+title: Kurt Hamblin
+author: Kurt Hamblin
+description: Kurt Hamblin is a Physical Scientist at NOAA.
+lang: en
+
+# Switch to https://www.kurthamblin.com when the CNAME file is added.
+url: "https://kurt-hamblin.github.io"
+baseurl: ""
+
+email: hamblin.kurt+website@gmail.com
+github: https://github.com/kurt-hamblin
+linkedin: https://www.linkedin.com/in/kurt-hamblin
+
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+nav:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Projects
+    url: /projects/
+  - title: Personal
+    url: /personal/
+
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .claude
