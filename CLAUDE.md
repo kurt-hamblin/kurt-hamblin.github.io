@@ -67,6 +67,8 @@ These apply to any text written for the site, and to commit messages.
 - Research: AGN identification and photometric redshifts with JWST and Chandra data. Projects include AGNBoost (https://github.com/kurt-hamblin/AGNBoost), a Chandra ACIS Extract pipeline for the MEGA survey, and an SED fitting framework.
 - AGNBoost paper (ApJ, 2026): https://ui.adsabs.harvard.edu/abs/2026ApJ..1002..223H/abstract. Trained on 10^6 mock galaxies (the old site lost the superscript and shows "106").
 - GitHub username changed from `hamblin-ku` to `kurt-hamblin`. Update any old links.
+- AGNBoost docs: https://kurt-hamblin.github.io/AGNBoost/ (a project site from the AGNBoost repo; recheck this link after the custom domain moves).
+- Low-luminosity AGN fitting code: will be on GitHub later. Listed on the Projects page with a TODO for the name and link.
 - Current role: Physical Scientist at NOAA. Use the title only, no further description.
 - Contact email: hamblin.kurt+website@gmail.com (plus address so Kurt can filter mail from the site).
 
