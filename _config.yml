@@ -23,6 +23,13 @@ plugins:
 feed:
   path: musings/feed.xml
 
+# Projects. Each project is a file in _projects/ with `title`,
+# `summary` (one line for the list), and `order`.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 defaults:
   - scope:
       path: ""
@@ -30,6 +37,11 @@ defaults:
     values:
       layout: post
       permalink: /musings/:year/:title/
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: post
 
 nav:
   - title: About

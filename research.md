@@ -38,7 +38,7 @@ Comparing the X-ray and infrared results showed how much the two methods complem
 
 ## Low-luminosity AGN
 
-The faintest AGN fall outside what AGNBoost was trained to find. To test the X-ray low-luminosity AGN candidates, I wrote a separate fitting method that splits a galaxy's JWST photometry into star-forming and AGN components and returns a probability distribution for the AGN contribution. The code is listed on the [Projects](/projects/#low-luminosity-agn-fitting) page.
+The faintest AGN fall outside what AGNBoost was trained to find. To test the X-ray low-luminosity AGN candidates, I wrote a separate fitting method that splits a galaxy's JWST photometry into star-forming and AGN components and returns a probability distribution for the AGN contribution. The code is listed on the [Projects](/projects/low-luminosity-agn/) page.
 <!-- TODO: add the headline result of the low-luminosity AGN analysis. -->
 
 ## What's next

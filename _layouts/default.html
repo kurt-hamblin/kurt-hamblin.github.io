@@ -11,9 +11,11 @@
   <div class="wrap">
     <header class="site-header">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {%- assign section = page.url -%}
+      {%- if page.collection == "posts" %}{% assign section = "/musings/" %}{% elsif page.collection == "projects" %}{% assign section = "/projects/" %}{% endif %}
       <nav class="site-nav">
         {%- for item in site.nav %}
-        <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.collection == 'posts' and item.url == '/musings/' %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        <a href="{{ item.url | relative_url }}"{% if item.url == section %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {%- endfor %}
       </nav>
     </header>

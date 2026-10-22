@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
+{%- comment -%} Used for Musings posts and for project pages. {%- endcomment -%}
+{%- if page.collection == "projects" -%}
+  {%- assign back_url = "/projects/" -%}
+  {%- assign back_title = "Projects" -%}
+{%- else -%}
+  {%- assign back_url = "/musings/" -%}
+  {%- assign back_title = "Musings" -%}
+{%- endif %}
 <article>
   <h1>{{ page.title }}</h1>
-  <p class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+  {% if page.collection == "posts" %}<p class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>{% endif %}
   {{ content }}
 </article>
 
-<p class="post-back"><a href="{{ '/musings/' | relative_url }}">Back to Musings</a></p>
+<p class="post-back"><a href="{{ back_url | relative_url }}">Back to {{ back_title }}</a></p>

@@ -188,18 +188,19 @@ figcaption {
   color: var(--muted);
 }
 
-/* Musings */
+/* Musings and Projects lists, and single entries */
 
-.post-list {
+.entry-list {
   list-style: none;
   padding-left: 0;
 }
 
-.post-list li {
+.entry-list li {
   margin-bottom: 1.1em;
 }
 
-.post-list time,
+.entry-list time,
+.entry-meta,
 .post-date {
   font-size: 0.95rem;
   color: var(--muted);

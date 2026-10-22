@@ -6,7 +6,7 @@ title: Musings
 Just somewhere to share my thoughts with the world (old man yells at sky).
 
 {% if site.posts.size > 0 %}
-<ul class="post-list">
+<ul class="entry-list">
   {%- for post in site.posts %}
   <li>
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time><br>

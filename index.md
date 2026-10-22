@@ -13,6 +13,8 @@ My PhD research focused on the co-evolution of supermassive black holes and thei
 
 I am broadly interested in machine learning, particularly distributional and Bayesian methods that put solid constraints on prediction uncertainty. More recently, I have become interested in simulation-based inference.
 
+Broadly, I enjoy working on difficult problems, and I especially enjoy the puzzle-solving side of them. It is easy in life to overanalyze many things, but frankly, I find great enjoyment in thinking critically about even the most mundane questions.
+
 I grew up in Silver Spring, Maryland, and received my B.S. in physics from the University of Maryland, Baltimore County (UMBC) in 2019, before moving to Lawrence, Kansas for graduate school.
 
 Outside of work, I love Star Wars (watching and reading!), traditional archery, playing RPGs, and performing my servant duties to my two pet rabbits, Yoda and Andromeda. There is more on my [Personal](/personal/) page, and I write for fun under [Musings](/musings/).
