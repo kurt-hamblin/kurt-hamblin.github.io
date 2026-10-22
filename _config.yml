@@ -3,8 +3,7 @@ author: Kurt Hamblin
 description: Kurt Hamblin is a Physical Scientist at NOAA.
 lang: en
 
-# Switch to https://www.kurthamblin.com when the CNAME file is added.
-url: "https://kurt-hamblin.github.io"
+url: "https://www.kurthamblin.com"
 baseurl: ""
 
 email: hamblin.kurt@gmail.com

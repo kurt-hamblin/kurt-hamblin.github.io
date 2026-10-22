@@ -82,7 +82,7 @@ The old site lives in a separate repo (`hamblin-ku.github.io`, now under the kur
 
 ## Custom domain
 
-Do not add a `CNAME` file or set the custom domain until Kurt says the site is ready. Before that happens, Kurt needs to remove the custom domain from the old repo's Pages settings, since GitHub only allows one repo per domain. Then add `CNAME` containing `www.kurthamblin.com` and turn on "Enforce HTTPS" in Pages settings.
+Done (October 2026). The custom domain was removed from the old repo (now `old-website`), and this repo has a `CNAME` file containing `www.kurthamblin.com`. `url` in `_config.yml` points there. Keep "Enforce HTTPS" on in Pages settings.
 
 ## Checking work
 
