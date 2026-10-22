@@ -70,7 +70,7 @@ These apply to any text written for the site, and to commit messages.
 - AGNBoost docs: https://kurt-hamblin.github.io/AGNBoost/ (a project site from the AGNBoost repo; recheck this link after the custom domain moves).
 - Low-luminosity AGN fitting code: will be on GitHub later. Listed on the Projects page with a TODO for the name and link.
 - Current role: Physical Scientist at NOAA. Use the title only, no further description.
-- Contact email: hamblin.kurt+website@gmail.com (plus address so Kurt can filter mail from the site).
+- Contact email: hamblin.kurt@gmail.com (no plus tag; Kurt chose the plain address).
 
 ## Files from the old site
 

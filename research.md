@@ -4,7 +4,8 @@ title: Research
 ---
 
 **Uncovering Hidden Black Holes in the Distant Universe**<br>
-PhD, University of Kansas, 2026. Advisor: Allison Kirkpatrick.
+PhD in Physics, University of Kansas. Defended July 2026. Advisor: Allison Kirkpatrick.<br>
+NASA FINNEST Fellow.
 <!-- TODO: link to the dissertation (ProQuest) once it is available. -->
 
 ## Background
