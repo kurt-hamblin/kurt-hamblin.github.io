@@ -15,6 +15,6 @@ I am broadly interested in machine learning, particularly distributional and Bay
 
 I grew up in Silver Spring, Maryland, and received my B.S. in physics from the University of Maryland, Baltimore County (UMBC) in 2019, before moving to Lawrence, Kansas for graduate school.
 
-Outside of work, I love Star Wars (watching and reading!), traditional archery, and performing my servant duties to my two pet rabbits, Yoda and Andromeda.
+Outside of work, I love Star Wars (watching and reading!), traditional archery, playing RPGs, and performing my servant duties to my two pet rabbits, Yoda and Andromeda. There is more on my [Personal](/personal/) page, and I write for fun under [Musings](/musings/).
 
 You can reach me at [hamblin.kurt+website@gmail.com](mailto:hamblin.kurt+website@gmail.com). I am also on [GitHub](https://github.com/kurt-hamblin) and [LinkedIn](https://www.linkedin.com/in/kurt-hamblin).

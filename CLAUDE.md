@@ -11,8 +11,8 @@ Build a small, hand-built Jekyll site from scratch, replacing an older site that
 - Plain Jekyll, built natively by GitHub Pages. No theme gem.
 - One stylesheet: `assets/css/style.css`. Plain CSS, no Sass, no frameworks (no Tailwind, Bootstrap, etc.).
 - No JavaScript unless a feature truly needs it. No webpack, no npm, no service worker.
-- Only use plugins that GitHub Pages supports out of the box (`jekyll-seo-tag`, `jekyll-sitemap` are fine).
-- Layouts: `default.html` (shell with header, nav, footer) and `page.html`. Add more only if needed.
+- Only use plugins that GitHub Pages supports out of the box (`jekyll-seo-tag`, `jekyll-sitemap`, `jekyll-feed` are in use).
+- Layouts: `default.html` (shell with header, nav, footer), `page.html`, and `post.html` (Musings posts). Add more only if needed.
 
 ## Site structure
 
@@ -22,6 +22,7 @@ Text-only top nav, in this order:
 - **Research** (`/research/`): PhD work at the University of Kansas, written in past tense. Short sections for each project with a link to the paper or repo.
 - **Projects** (`/projects/`): personal and code projects. One heading per project, one to three sentences, a link.
 - **Personal** (`/personal/`): hobbies and interests as short prose and simple lists, with inline photos.
+- **Musings** (`/musings/`): Kurt's blog for writing for fun. Posts live in `_posts/YYYY-MM-DD-title.md` with a `title` in front matter, use the `post` layout, and get URLs like `/musings/2026/title/`. RSS feed at `/musings/feed.xml` (jekyll-feed). Never write posts for Kurt; only fix formatting if asked.
 
 No CV on the site (Kurt decided it is not needed).
 

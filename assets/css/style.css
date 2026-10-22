@@ -160,6 +160,10 @@ img.headshot {
   max-width: 14rem;
 }
 
+img.narrow {
+  max-width: 24rem;
+}
+
 /* Figures and video */
 
 figure {
@@ -182,6 +186,31 @@ figcaption {
   margin-top: 0.5rem;
   font-size: 0.95rem;
   color: var(--muted);
+}
+
+/* Musings */
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  margin-bottom: 1.1em;
+}
+
+.post-list time,
+.post-date {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.post-date {
+  margin-top: -0.25em;
+}
+
+.post-back {
+  margin-top: 3rem;
 }
 
 /* Footer */

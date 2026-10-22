@@ -17,6 +17,19 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+
+# Musings (blog). New posts go in _posts/ as YYYY-MM-DD-title.md.
+feed:
+  path: musings/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /musings/:year/:title/
 
 nav:
   - title: About
@@ -27,6 +40,8 @@ nav:
     url: /projects/
   - title: Personal
     url: /personal/
+  - title: Musings
+    url: /musings/
 
 exclude:
   - CLAUDE.md
@@ -35,3 +50,4 @@ exclude:
   - vendor
   - .bundle
   - .claude
+  - Valithria_healing_final
